@@ -1,0 +1,706 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.FinderSearchApp-arm64-apple-macosx-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/sources",
+      "importPath" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/AppState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/FinderSearchApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/Chunker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/EmbeddingService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/FileCrawler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/FileSystemWatcher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/Indexer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/IndexingProgress.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/TextExtractors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/Chunk.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/FileKind.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/FileRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/GenerableTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/TrackedFolder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Retrieval/LexicalIndex.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Retrieval/QueryEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Retrieval/VectorStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/SelfTest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Store.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Support/BookmarkStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/AnswerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/IndexingSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/MenuBarPanel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/ResultRow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/SearchWindow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "FinderSearchApp",
+      "moduleOutputPath" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/Modules/FinderSearchApp.swiftmodule",
+      "objects" : [
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/AppDelegate.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/AppState.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FinderSearchApp.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/Chunker.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/EmbeddingService.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FileCrawler.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FileSystemWatcher.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/Indexer.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/IndexingProgress.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/TextExtractors.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/Chunk.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FileKind.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FileRecord.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/GenerableTypes.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/TrackedFolder.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/LexicalIndex.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/QueryEngine.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/VectorStore.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/SelfTest.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/Store.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/BookmarkStore.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/AnswerView.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/IndexingSettings.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/MenuBarPanel.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/ResultRow.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/SearchWindow.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx27.0",
+        "-whole-module-optimization",
+        "-num-threads",
+        "11",
+        "-serialize-diagnostics",
+        "-O",
+        "-j11",
+        "-DSWIFT_PACKAGE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "FinderSearchApp_main",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "finder_search"
+      ],
+      "outputFileMapPath" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/AppState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FinderSearchApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/Chunker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/EmbeddingService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FileCrawler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FileSystemWatcher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/Indexer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/IndexingProgress.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/TextExtractors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/Chunk.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FileKind.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FileRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/GenerableTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/TrackedFolder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/LexicalIndex.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/QueryEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/VectorStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/SelfTest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/Store.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/BookmarkStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/AnswerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/IndexingSettings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/MenuBarPanel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/ResultRow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/SearchWindow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/Modules/FinderSearchApp.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/AppDelegate.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/AppState.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/FinderSearchApp.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/Chunker.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/EmbeddingService.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/FileCrawler.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/FileSystemWatcher.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/Indexer.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/IndexingProgress.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/TextExtractors.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/Chunk.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/FileKind.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/FileRecord.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/GenerableTypes.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/TrackedFolder.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Retrieval/LexicalIndex.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Retrieval/QueryEngine.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Retrieval/VectorStore.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/SelfTest.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Store.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Support/BookmarkStore.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/AnswerView.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/IndexingSettings.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/MenuBarPanel.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/ResultRow.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/SearchWindow.swift"
+      ],
+      "tempsPath" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "FinderSearchApp" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FinderSearchApp",
+      "-package-name",
+      "finder_search",
+      "-c",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/AppDelegate.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/AppState.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/FinderSearchApp.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/Chunker.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/EmbeddingService.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/FileCrawler.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/FileSystemWatcher.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/Indexer.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/IndexingProgress.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/TextExtractors.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/Chunk.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/FileKind.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/FileRecord.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/GenerableTypes.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/TrackedFolder.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Retrieval/LexicalIndex.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Retrieval/QueryEngine.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Retrieval/VectorStore.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/SelfTest.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Store.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Support/BookmarkStore.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/AnswerView.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/IndexingSettings.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/MenuBarPanel.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/ResultRow.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/SearchWindow.swift",
+      "-I",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx27.0",
+      "-whole-module-optimization",
+      "-num-threads",
+      "11",
+      "-serialize-diagnostics",
+      "-O",
+      "-j11",
+      "-DSWIFT_PACKAGE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "FinderSearchApp_main",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "finder_search",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "FinderSearchApp" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearch.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/AnswerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/AppState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/BookmarkStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/Chunk.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/Chunker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/EmbeddingService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FileCrawler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FileKind.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FileRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FileSystemWatcher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FinderSearchApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/GenerableTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/Indexer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/IndexingProgress.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/IndexingSettings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/LexicalIndex.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/MenuBarPanel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/QueryEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/ResultRow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/SearchWindow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/SelfTest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/Store.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/TextExtractors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/TrackedFolder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/VectorStore.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearch.product/Objects.LinkFileList"
+    },
+    "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/AppState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/FinderSearchApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/Chunker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/EmbeddingService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/FileCrawler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/FileSystemWatcher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/Indexer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/IndexingProgress.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Indexing/TextExtractors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/Chunk.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/FileKind.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/FileRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/GenerableTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Models/TrackedFolder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Retrieval/LexicalIndex.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Retrieval/QueryEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Retrieval/VectorStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/SelfTest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Store.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Support/BookmarkStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/AnswerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/IndexingSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/MenuBarPanel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/ResultRow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/SearchWindow.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/sources"
+    },
+    "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
