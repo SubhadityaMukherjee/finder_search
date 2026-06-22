@@ -15,6 +15,7 @@ final class AppState {
     let queryEngine: QueryEngine
 
     var folders: [Store.TrackedFolderInfo] = []
+    var folderStats: [Store.FolderStats] = []
     var fileCount: Int = 0
     var chunkCount: Int = 0
     var searchQuery: String = ""
@@ -52,6 +53,7 @@ final class AppState {
 
     func refresh() async {
         folders = (try? await store.trackedFolders()) ?? []
+        folderStats = (try? await store.folderStats()) ?? []
         let c = (try? await store.counts()) ?? (files: 0, chunks: 0)
         fileCount = c.files
         chunkCount = c.chunks

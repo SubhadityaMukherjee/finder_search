@@ -112,6 +112,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/FoldersTab.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/IndexingSettings.swift"
         },
         {
@@ -161,6 +165,7 @@
         "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/debug/FinderSearchApp.build/Store.swift.o",
         "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/debug/FinderSearchApp.build/BookmarkStore.swift.o",
         "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/debug/FinderSearchApp.build/AnswerView.swift.o",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/debug/FinderSearchApp.build/FoldersTab.swift.o",
         "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/debug/FinderSearchApp.build/IndexingSettings.swift.o",
         "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/debug/FinderSearchApp.build/MenuBarPanel.swift.o",
         "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/debug/FinderSearchApp.build/ResultRow.swift.o",
@@ -307,6 +312,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/debug/FinderSearchApp.build/FoldersTab.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/debug/FinderSearchApp.build/IndexingSettings.swift.o"
         },
         {
@@ -350,6 +359,7 @@
         "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Store.swift",
         "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Support/BookmarkStore.swift",
         "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/AnswerView.swift",
+        "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/FoldersTab.swift",
         "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/IndexingSettings.swift",
         "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/MenuBarPanel.swift",
         "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/ResultRow.swift",
@@ -392,6 +402,7 @@
       "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Store.swift",
       "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/Support/BookmarkStore.swift",
       "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/AnswerView.swift",
+      "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/FoldersTab.swift",
       "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/IndexingSettings.swift",
       "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/MenuBarPanel.swift",
       "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/ResultRow.swift",
@@ -534,6 +545,10 @@
         {
           "kind" : "file",
           "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/debug/FinderSearchApp.build/FinderSearchApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/debug/FinderSearchApp.build/FoldersTab.swift.o"
         },
         {
           "kind" : "file",
@@ -688,6 +703,10 @@
         {
           "kind" : "file",
           "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/AnswerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/FoldersTab.swift"
         },
         {
           "kind" : "file",

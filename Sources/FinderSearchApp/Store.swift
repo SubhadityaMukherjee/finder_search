@@ -81,6 +81,81 @@ actor Store {
         return (files, chunks)
     }
 
+    /// Per-folder rollup used by the Folders tab. Resolves each bookmark to a URL, then
+    /// counts FileRecords whose path is the folder or a descendant. Path-component-aware
+    /// ("/Users/x/Documents" matches "/Users/x/Documents/foo.txt" but NOT
+    /// "/Users/x/Documents-backup/foo.txt").
+    ///
+    /// `resolvedURL` is nil when the bookmark is stale or unresolvable — the UI shows the
+    /// folder as offline rather than hiding it.
+    struct FolderStats: Sendable, Identifiable {
+        let id: UUID
+        let displayName: String
+        let dateAdded: Date
+        let lastIndexedAt: Date?
+        let resolvedPath: String?
+        let fileCount: Int
+        let chunkCount: Int
+        let failedCount: Int
+    }
+
+    func folderStats() throws -> [FolderStats] {
+        let folders = try modelContext.fetch(FetchDescriptor<TrackedFolder>())
+        guard !folders.isEmpty else { return [] }
+
+        let files = try modelContext.fetch(FetchDescriptor<FileRecord>())
+        // Pre-bucket files by path prefix for O(folders + files) instead of O(folders × files).
+        // Each folder's prefix is its absolute path with a trailing slash so descendant
+        // matching respects path-component boundaries.
+        struct FolderMatch {
+            let folder: TrackedFolder
+            let resolvedPath: String?   // nil if bookmark is stale
+            let prefix: String          // always ends in "/" — synthetic if unresolvable
+            let exactPath: String       // folder's own path, no trailing slash
+            var fileCount: Int = 0
+            var chunkCount: Int = 0
+            var failedCount: Int = 0
+        }
+        var matches: [FolderMatch] = []
+        matches.reserveCapacity(folders.count)
+        for folder in folders {
+            let resolvedPath = BookmarkStore.resolve(folder.bookmarkData)?.path
+            // If unresolvable, fall back to a synthetic prefix that matches nothing so the
+            // folder still appears in the list with zero counts.
+            let path = resolvedPath ?? "\0/unresolvable/\(folder.id.uuidString)"
+            let prefix = path.hasSuffix("/") ? path : path + "/"
+            matches.append(FolderMatch(
+                folder: folder, resolvedPath: resolvedPath,
+                prefix: prefix, exactPath: path
+            ))
+        }
+
+        for file in files {
+            for i in 0..<matches.count {
+                let m = matches[i]
+                if file.pathString == m.exactPath || file.pathString.hasPrefix(m.prefix) {
+                    matches[i].fileCount += 1
+                    matches[i].chunkCount += file.chunks?.count ?? 0
+                    if file.failedReason != nil { matches[i].failedCount += 1 }
+                    break  // a file lives under exactly one tracked folder
+                }
+            }
+        }
+
+        return matches.map { m in
+            FolderStats(
+                id: m.folder.id,
+                displayName: m.folder.displayName,
+                dateAdded: m.folder.dateAdded,
+                lastIndexedAt: m.folder.lastIndexedAt,
+                resolvedPath: m.resolvedPath,
+                fileCount: m.fileCount,
+                chunkCount: m.chunkCount,
+                failedCount: m.failedCount
+            )
+        }
+    }
+
     // MARK: - Indexer write-side helpers
 
     struct ChunkSpec: Sendable {

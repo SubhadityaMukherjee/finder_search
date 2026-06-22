@@ -264,8 +264,20 @@ actor QueryEngine {
     /// user wants aggregation across many chunks rather than a narrow factual lookup.
     static func isBroadQuery(_ s: String) -> Bool {
         let lower = s.lowercased()
-        let words = lower.split { $0.isWhitespace }.count
+        let trimmed = lower.trimmingCharacters(in: .whitespacesAndNewlines)
+        let tokens = trimmed.split { $0.isWhitespace }.map(String.init)
+        let words = tokens.count
         if words >= 7 { return true }
+
+        // Question-starter at the beginning of the query: "who is hrishita", "what is ALFIE",
+        // "where is the runbook", etc. These are open-ended entity questions that benefit
+        // from broad retrieval + synthesis — without this, the narrow path's strict prompt
+        // can cause the model to echo just the entity name back as the answer.
+        if let first = tokens.first {
+            let starter = first.trimmingCharacters(in: CharacterSet(charactersIn: "'’?"))
+            if Self.questionStarters.contains(starter) { return true }
+        }
+
         let broadPhrases = [
             "tell me about", "tell me everything", "tell me whatever", "tell me all",
             "everything about", "everything on", "everything you", "anything about",
@@ -279,6 +291,11 @@ actor QueryEngine {
         ]
         return broadPhrases.contains { lower.contains($0) }
     }
+
+    private static let questionStarters: Set<String> = [
+        "who", "what", "where", "when", "why", "how", "whose", "whom", "which",
+        "who's", "what's", "where's", "when's", "why's", "how's",
+    ]
 
     private static let factualInstructions = """
     You are FinderSearch, an on-device assistant that answers questions about the user's

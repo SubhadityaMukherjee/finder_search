@@ -6,12 +6,21 @@ struct SearchWindow: View {
     var body: some View {
         @Bindable var appState = appState
 
-        VStack(spacing: 0) {
-            searchBar(text: $appState.searchQuery)
-            Divider()
-            content
+        TabView {
+            VStack(spacing: 0) {
+                searchBar(text: $appState.searchQuery)
+                Divider()
+                content
+            }
+            .tabItem {
+                Label("Search", systemImage: "magnifyingglass")
+            }
+
+            FoldersTab()
+                .tabItem {
+                    Label("Folders", systemImage: "folder")
+                }
         }
-        .frame(minWidth: 720, minHeight: 480)
         .task {
             await appState.bootstrap()
         }

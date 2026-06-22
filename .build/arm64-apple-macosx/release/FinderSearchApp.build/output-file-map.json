@@ -136,6 +136,12 @@
     "swift-dependencies": "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/AnswerView.swiftdeps",
     "diagnostics": "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/AnswerView.dia"
   },
+  "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/FoldersTab.swift": {
+    "object": "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FoldersTab.swift.o",
+    "swiftmodule": "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FoldersTab~partial.swiftmodule",
+    "swift-dependencies": "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FoldersTab.swiftdeps",
+    "diagnostics": "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/FoldersTab.dia"
+  },
   "/Users/smukherjee/Documents/Projects/Personal/finder_search/Sources/FinderSearchApp/UI/IndexingSettings.swift": {
     "object": "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/IndexingSettings.swift.o",
     "swiftmodule": "/Users/smukherjee/Documents/Projects/Personal/finder_search/.build/arm64-apple-macosx/release/FinderSearchApp.build/IndexingSettings~partial.swiftmodule",

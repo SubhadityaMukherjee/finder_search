@@ -24,6 +24,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         guard let appState = AppStateHolder.instance else { return }
         setupStatusItem(appState: appState)
+        // Bootstrap outside the SwiftUI scene tree so VectorStore / watcher are ready even
+        // if the main window is never opened (e.g., user only uses the menu bar popover).
+        Task { @MainActor in
+            await appState.bootstrap()
+        }
     }
 
     private func setupStatusItem(appState: AppState) {
